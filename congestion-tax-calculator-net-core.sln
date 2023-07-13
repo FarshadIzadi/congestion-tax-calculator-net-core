@@ -9,11 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{21AAE891-697
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CE5AE7E1-3531-4F18-A52B-1B22ED753C37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Congestion-Tax-Calculator.Domain", "..\Congestion-Tax-Calculator.Domain\Congestion-Tax-Calculator.Domain.csproj", "{D55DCBE2-DE5F-43C5-849E-220E59079E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion-Tax-Calculator.Domain", "..\Congestion-Tax-Calculator.Domain\Congestion-Tax-Calculator.Domain.csproj", "{D55DCBE2-DE5F-43C5-849E-220E59079E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Congestion-Tax-Calculator.Application", "..\Congestion-Tax-Calculator.Application\Congestion-Tax-Calculator.Application.csproj", "{37566F6A-355C-4ABB-B5E5-5EC304DE5255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion-Tax-Calculator.Application", "..\Congestion-Tax-Calculator.Application\Congestion-Tax-Calculator.Application.csproj", "{37566F6A-355C-4ABB-B5E5-5EC304DE5255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Congestion-Tax-Calculator.Perisstence", "..\Congestion-Tax-Calculator.Perisstence\Congestion-Tax-Calculator.Perisstence.csproj", "{2040EFA5-EFC3-4A84-8078-7660EC7F0118}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Congestion-Tax-Calculator.Perisstence", "..\Congestion-Tax-Calculator.Perisstence\Congestion-Tax-Calculator.Perisstence.csproj", "{2040EFA5-EFC3-4A84-8078-7660EC7F0118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Congestion-Tax_Calculator.API", "Congestion-Tax_Calculator.API\Congestion-Tax_Calculator.API.csproj", "{49F86D9E-1F9A-48A7-B77C-F590020D9394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2040EFA5-EFC3-4A84-8078-7660EC7F0118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2040EFA5-EFC3-4A84-8078-7660EC7F0118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2040EFA5-EFC3-4A84-8078-7660EC7F0118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F86D9E-1F9A-48A7-B77C-F590020D9394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F86D9E-1F9A-48A7-B77C-F590020D9394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F86D9E-1F9A-48A7-B77C-F590020D9394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F86D9E-1F9A-48A7-B77C-F590020D9394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{D55DCBE2-DE5F-43C5-849E-220E59079E88} = {5801601A-8795-4B3D-83C2-7F0A589D36B3}
 		{37566F6A-355C-4ABB-B5E5-5EC304DE5255} = {5801601A-8795-4B3D-83C2-7F0A589D36B3}
 		{2040EFA5-EFC3-4A84-8078-7660EC7F0118} = {CE5AE7E1-3531-4F18-A52B-1B22ED753C37}
+		{49F86D9E-1F9A-48A7-B77C-F590020D9394} = {21AAE891-6973-44EB-AB3A-6B114E5A642D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {259DA2BB-8173-42A5-A145-959DB2D7ACBE}
